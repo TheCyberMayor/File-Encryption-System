@@ -1,0 +1,121 @@
+{
+  "test_date": "2025-07-29T05:58:51.505969",
+  "summary": {
+    "aes": {
+      "avg_encryption_throughput": 97.79915104382172,
+      "avg_decryption_throughput": 92.09770891315019,
+      "min_encryption_throughput": 41.06989405244502,
+      "max_encryption_throughput": 133.6936488963264,
+      "integrity_verification_rate": 100.0
+    },
+    "hybrid": {
+      "avg_encryption_throughput": 98.38828871886341,
+      "avg_decryption_throughput": 58.599737712510944,
+      "min_encryption_throughput": 36.4831917225864,
+      "max_encryption_throughput": 162.40625726012544,
+      "integrity_verification_rate": 100.0
+    }
+  },
+  "detailed_results": [
+    {
+      "method": "AES-256-CBC",
+      "file_size_mb": 1,
+      "encryption_time": 0.024348735809326172,
+      "decryption_time": 0.021364927291870117,
+      "encryption_throughput_mbps": 41.06989405244502,
+      "decryption_throughput_mbps": 46.80568233810581,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:41.628261"
+    },
+    {
+      "method": "AES-256-CBC",
+      "file_size_mb": 5,
+      "encryption_time": 0.07341432571411133,
+      "decryption_time": 0.10425090789794922,
+      "encryption_throughput_mbps": 68.10659842427627,
+      "decryption_throughput_mbps": 47.961213008278825,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:42.028323"
+    },
+    {
+      "method": "AES-256-CBC",
+      "file_size_mb": 10,
+      "encryption_time": 0.0747978687286377,
+      "decryption_time": 0.06644892692565918,
+      "encryption_throughput_mbps": 133.6936488963264,
+      "decryption_throughput_mbps": 150.49151976807184,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:42.459578"
+    },
+    {
+      "method": "AES-256-CBC",
+      "file_size_mb": 25,
+      "encryption_time": 0.22022724151611328,
+      "decryption_time": 0.3559739589691162,
+      "encryption_throughput_mbps": 113.51910793547688,
+      "decryption_throughput_mbps": 70.22985634229768,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:43.915304"
+    },
+    {
+      "method": "AES-256-CBC",
+      "file_size_mb": 50,
+      "encryption_time": 0.37705540657043457,
+      "decryption_time": 0.34482693672180176,
+      "encryption_throughput_mbps": 132.60650591058405,
+      "decryption_throughput_mbps": 145.00027310899677,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:45.553731"
+    },
+    {
+      "method": "Hybrid (AES + RSA)",
+      "file_size_mb": 1,
+      "encryption_time": 0.016954660415649414,
+      "decryption_time": 0.06336021423339844,
+      "encryption_throughput_mbps": 58.980833321614895,
+      "decryption_throughput_mbps": 15.782774917968633,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:45.722331"
+    },
+    {
+      "method": "Hybrid (AES + RSA)",
+      "file_size_mb": 5,
+      "encryption_time": 0.030786991119384766,
+      "decryption_time": 0.08435630798339844,
+      "encryption_throughput_mbps": 162.40625726012544,
+      "decryption_throughput_mbps": 59.27239016890135,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:45.922467"
+    },
+    {
+      "method": "Hybrid (AES + RSA)",
+      "file_size_mb": 10,
+      "encryption_time": 0.06859827041625977,
+      "decryption_time": 0.1592705249786377,
+      "encryption_throughput_mbps": 145.77627014965836,
+      "decryption_throughput_mbps": 62.78625628528103,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:46.428332"
+    },
+    {
+      "method": "Hybrid (AES + RSA)",
+      "file_size_mb": 25,
+      "encryption_time": 0.28314208984375,
+      "decryption_time": 0.3137552738189697,
+      "encryption_throughput_mbps": 88.29489114033197,
+      "decryption_throughput_mbps": 79.67993556157555,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:48.068237"
+    },
+    {
+      "method": "Hybrid (AES + RSA)",
+      "file_size_mb": 50,
+      "encryption_time": 1.3704941272735596,
+      "decryption_time": 0.6624505519866943,
+      "encryption_throughput_mbps": 36.4831917225864,
+      "decryption_throughput_mbps": 75.47733162882817,
+      "integrity_verified": true,
+      "timestamp": "2025-07-29T05:58:51.487085"
+    }
+  ]
+}

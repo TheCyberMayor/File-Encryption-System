@@ -1,0 +1,26 @@
+This is a test document for the File Encryption System.
+
+File Information:
+- Created: July 29, 2025
+- Purpose: Testing encryption and decryption functionality
+- Content: Sample text with various characters and formatting
+
+Test Data:
+- Numbers: 1234567890
+- Special characters: !@#$%^&*()_+-=[]{}|;:,.<>?
+- Uppercase: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+- Lowercase: abcdefghijklmnopqrstuvwxyz
+- Mixed case: Hello World! This is a Test Document.
+
+Encryption Test:
+This document will be encrypted using both AES and Hybrid methods to verify:
+1. File integrity preservation
+2. Successful decryption
+3. Original format restoration
+4. Performance metrics
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+End of test document. 
