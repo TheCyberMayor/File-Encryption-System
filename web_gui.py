@@ -1,7 +1,7 @@
 import streamlit as st
 import tempfile
 import os
-from file_encryption_system import FileEncryptionSystem
+from file_encryption_system_server import FileEncryptionSystem
 
 encryption_system = FileEncryptionSystem()
 st.set_page_config(page_title="File Encryption System Web GUI", layout="centered")

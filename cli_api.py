@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, send_file
 import os
 import tempfile
-from file_encryption_system import FileEncryptionSystem
+from file_encryption_system_server import FileEncryptionSystem
 
 app = Flask(__name__)
 encryption_system = FileEncryptionSystem()
